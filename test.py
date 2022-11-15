@@ -1,12 +1,10 @@
-def calc(firstNumber,secondNumber):
-    print(f"첫 번째 수를 입력하세요 :{firstNumber}")
-    print(f"두 번째 수를 입력하세요 :{secondNumber}")
-    print("결과:")
-    print(f"{firstNumber} + {secondNumber} =", firstNumber+secondNumber)
-    print(f"{firstNumber} - {secondNumber} =", firstNumber-secondNumber)
-    print(f"{firstNumber} * {secondNumber} =", firstNumber*secondNumber)
-    print(f"{firstNumber} / {secondNumber} =", firstNumber/secondNumber)
+firstNumber = int(input("첫 번째 수를 입력하세요: "))
+secondNumber = int(input("두 번째 수를 입력하세요: "))
 
-calc(1,2)
+print("결과:")
+print(f"+ 연산 = {firstNumber + secondNumber}")
+print(f"- 연산 = {firstNumber - secondNumber}")
+print(f"* 연산 = {firstNumber * secondNumber}")
+print(f"/ 연산 = {firstNumber / secondNumber}")
 
-first = input ("첫번째 수를 입력하세요 : ")
+
