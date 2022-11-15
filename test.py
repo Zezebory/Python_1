@@ -1,20 +1,12 @@
-my_name = "Zezebory"
-my_age = 30
-my_color_eyes = "black"
+def calc(firstNumber,secondNumber):
+    print(f"첫 번째 수를 입력하세요 :{firstNumber}")
+    print(f"두 번째 수를 입력하세요 :{secondNumber}")
+    print("결과:")
+    print(f"{firstNumber} + {secondNumber} =", firstNumber+secondNumber)
+    print(f"{firstNumber} - {secondNumber} =", firstNumber-secondNumber)
+    print(f"{firstNumber} * {secondNumber} =", firstNumber*secondNumber)
+    print(f"{firstNumber} / {secondNumber} =", firstNumber/secondNumber)
 
-print(f"Hello I'm {my_name}, I have {my_age} years in the earth, {my_color_eyes} is my eye color")
+calc(1,2)
 
-def make_juice(fruit):
-    return f"{fruit}+juice"
-
-def add_ice(juice):
-    return f"{juice}+ice"
-
-def add_sugar(iced_juice):
-    return f"{iced_juice}+sugar"
-
-juice = make_juice("apple")
-cold_juice = add_ice(juice)
-perfect_juice = add_sugar(cold_juice)
-
-print(perfect_juice)
+first = input ("첫번째 수를 입력하세요 : ")
