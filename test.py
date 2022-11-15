@@ -1,9 +1,8 @@
-print(True)
-print("hello")
-print(12)
-print(True, "hello", 12)
-
 def say_hello():
     print("hello how r u?")
 
+def say_goodbye():
+    print("bye bye")
+
 say_hello()
+say_goodbye()
